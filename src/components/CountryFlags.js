@@ -12,7 +12,7 @@ const CountryFlags = () => {
         setCountryData(data);
         console.log(data);
       } catch (error) {
-        console.log("Error fetching data:", error);
+        console.error("Error fetching data:", error);
       }
     };
     fetchData();
