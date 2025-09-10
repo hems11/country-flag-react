@@ -12,7 +12,8 @@ const CountryFlags = () => {
       .then((data) => {
         setCountryData(data);
         setResults(data); // initially show all
-      });
+      })
+       .catch((err) => console.error("Error fetching countries:", err));
   }, []);
 
   // useEffect(() => {
@@ -39,7 +40,7 @@ const CountryFlags = () => {
 
     setResults(filtered);
   };
-  
+
   return (
     <div className="container">
       <h1 className="title">Countries With Flags</h1>
