@@ -19,14 +19,14 @@
   justify-content: center;
 } */
 
-.countryCard {
+.flag-card{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.flag-card{
+.countryCard {
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 8px;

@@ -46,10 +46,10 @@ const CountryFlags = () => {
       <h1 className="title">Countries With Flags</h1>
       <input type="text" name="search" value={searchText} className="searchInput" placeholder="Search for countries" onChange={handleSearch}></input><br/>
       <hr/><br/>
-      <div className="countryCard">
+      <div className="flag-card">
         {results.map((country,index) => (
           //for countrySearch app
-          <div key={country.common+index} className="flag-card">
+          <div key={country.common+index} className="countryCard">
             <img
             src={country.png}
             height="150px"
