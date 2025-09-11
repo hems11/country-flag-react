@@ -56,7 +56,7 @@ const CountryFlags = () => {
             width="200px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
             />
-            <h4 className="country-name">{country.common}</h4>
+            <h2 className="country-name">{country.common}</h2>
           </div>
           // for country flag app
           // <div key={country.name+index} className="countryCard">
